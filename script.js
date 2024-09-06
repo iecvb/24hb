@@ -1,6 +1,6 @@
 const audioPlayer = document.getElementById('audioPlayer');
 const titulo = document.getElementById('titulo');
-const descricao = document.getElementById('descricao');
+//const descricao = document.getElementById('descricao');
 const capa = document.getElementById('capa');
 const proximoBtn = document.getElementById('proximoBtn');
 // Posicionamento do botão "Próximo" junto aos controles nativos
@@ -11,13 +11,12 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fanchor.fm%2Fs%
   .then(data => {
     const episodios = data.items;    
     let episodioAtual = 0;
-    console.log(episodios.length);
-
+   
     // Função para carregar e reproduzir episódio
     function carregarEpisodio() {
       const episodio = episodios[episodioAtual];
       titulo.textContent = episodio.title;
-      descricao.innerHTML = episodio.description;
+      //descricao.innerHTML = episodio.description;
       capa.src = episodio.thumbnail;
       audioPlayer.src = episodio.enclosure.link;
       audioPlayer.play();
