@@ -2,6 +2,9 @@ const audioPlayer = document.getElementById('audioPlayer');
 const titulo = document.getElementById('titulo');
 const descricao = document.getElementById('descricao');
 const capa = document.getElementById('capa');
+const proximoBtn = document.getElementById('proximoBtn');
+// Posicionamento do botão "Próximo" junto aos controles nativos
+audioPlayer.parentNode.insertBefore(proximoBtn, audioPlayer.nextSibling);
 
 fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fanchor.fm%2Fs%2F49f0c604%2Fpodcast%2Frss&api_key=h2getljthkrm9zimjvzaxhhc0rxcvwbc0h9cylvb&order_by=pubDate&order_dir=desc&count=1000') 
   .then(response => response.json())
@@ -27,6 +30,12 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fanchor.fm%2Fs%
 
     // Carrega o primeiro episódio ao carregar a página
     carregarEpisodio();
+
+    // Evento de clique no botão "Próximo"
+    proximoBtn.addEventListener('click', () => {
+      episodioAtual = obterEpisodioAleatorio();
+      carregarEpisodio();
+    });
 
     // Controles de reprodução (próximo/anterior)
     audioPlayer.addEventListener('ended', () => {
