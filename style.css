@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f0f0;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -53,6 +53,7 @@ h1 {
 audio {
   width: 100%;
   /* margin-top: 20px; */
+  margin-left: 10px;
 }
 
 .audio-control {
