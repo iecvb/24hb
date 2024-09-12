@@ -31,21 +31,21 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fanchor.fm%2Fs%
 
 	data.items.forEach(episodio => {
 		episodios.push({
-			"name" : episodio.title,
-			"artist": "Radio 24hB <br> 24 horas de Estudos Bíblicos",			
-			"album": "Igreja Evangelica Congregacional Vale da Benção em Candeias, Jaboatão, Pernambuco, Brasil",
-			"url": episodio.enclosure.link,		
-			"cover_art_url": episodio.thumbnail}
+			name : episodio.title,
+			artist: "Radio 24hB <br> 24 horas de Estudos Bíblicos",			
+			album: "Igreja Evangelica Congregacional Vale da Benção em Candeias, Jaboatão, Pernambuco, Brasil",
+			url: episodio.enclosure.link,		
+			cover_art_url: episodio.thumbnail}
 		);
 	  });
 
 	  Amplitude.init({
-		"bindings": {
+		bindings: {
 			37: 'prev',
 			39: 'next',
 			32: 'play_pause'
 		},
-		"callbacks": {
+		callbacks: {
 			timeupdate: function(){
 				let percentage = Amplitude.getSongPlayedPercentage();
 	
@@ -57,8 +57,11 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fanchor.fm%2Fs%
 				slider.style.backgroundSize = percentage + '% 100%';
 			}
 		},
-		"songs": episodios
+		songs: episodios,
+		autoplay: true
 	});
+
+	Amplitude.setShuffle(true);
 
 })
 .catch(error => console.error('Erro ao carregar o feed RSS:', error));
