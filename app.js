@@ -28,7 +28,7 @@ document.getElementById("song-saved").addEventListener("click", function () {
   document.getElementById("song-saved").classList.toggle("saved");
 });
 console.time("Tempo de Execução");
-fetch("https://rss-three-pied.vercel.app/api/rss2json")
+fetch("https://rss-go.vercel.app/api")
   .then((response) => response.json())
   .then((data) => {
     const episodios = [];
