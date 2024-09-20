@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 if (
   localStorage.theme === "dark" ||
   (!("theme" in localStorage) &&
