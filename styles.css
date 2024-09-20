@@ -22,11 +22,7 @@
 
 ::before,
 ::after {
-<<<<<<< HEAD
   --tw-content: "";
-=======
-  --tw-content: '';
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 /*
@@ -44,18 +40,12 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-<<<<<<< HEAD
   tab-size: 4;
   /* 3 */
   font-family: Inter var, ui-sans-serif, system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
-=======
-     tab-size: 4;
-  /* 3 */
-  font-family: Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   /* 4 */
 }
 
@@ -92,11 +82,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-<<<<<<< HEAD
   text-decoration: underline dotted;
-=======
-          text-decoration: underline dotted;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 /*
@@ -140,12 +126,8 @@ code,
 kbd,
 samp,
 pre {
-<<<<<<< HEAD
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
-=======
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -234,15 +216,9 @@ select {
 */
 
 button,
-<<<<<<< HEAD
 [type="button"],
 [type="reset"],
 [type="submit"] {
-=======
-[type='button'],
-[type='reset'],
-[type='submit'] {
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -289,11 +265,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-<<<<<<< HEAD
 [type="search"] {
-=======
-[type='search'] {
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -378,24 +350,16 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-<<<<<<< HEAD
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-=======
-input::-moz-placeholder, textarea::-moz-placeholder {
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   opacity: 1;
   /* 1 */
   color: #9ca3af;
   /* 2 */
 }
 
-<<<<<<< HEAD
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-=======
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -465,13 +429,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-<<<<<<< HEAD
 *,
 ::before,
 ::after {
-=======
-*, ::before, ::after {
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -479,7 +439,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-<<<<<<< HEAD
   --tw-pan-x: ;
   --tw-pan-y: ;
   --tw-pinch-zoom: ;
@@ -490,18 +449,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-numeric-spacing: ;
   --tw-numeric-fraction: ;
   --tw-ring-inset: ;
-=======
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -509,7 +456,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-<<<<<<< HEAD
   --tw-blur: ;
   --tw-brightness: ;
   --tw-contrast: ;
@@ -528,26 +474,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
-=======
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 .absolute {
@@ -773,11 +699,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .stroke-\[\#0A1122\] {
-<<<<<<< HEAD
   stroke: #0a1122;
-=======
-  stroke: #0A1122;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 .px-10 {
@@ -812,14 +734,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .font-sans {
-<<<<<<< HEAD
   font-family: Inter var, ui-sans-serif, system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
-=======
-  font-family: Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 .text-lg {
@@ -887,7 +805,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .shadow-player-light {
-<<<<<<< HEAD
   --tw-shadow: 0px 15px 25px rgba(15, 23, 42, 0.1),
     0px 5px 10px rgba(15, 23, 42, 0.04);
   --tw-shadow-colored: 0px 15px 25px var(--tw-shadow-color),
@@ -903,28 +820,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-=======
-  --tw-shadow: 0px 15px 25px rgba(15, 23, 42, 0.1), 0px 5px 10px rgba(15, 23, 42, 0.04);
-  --tw-shadow-colored: 0px 15px 25px var(--tw-shadow-color), 0px 5px 10px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-xl {
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 .blur-2xl {
   --tw-blur: blur(40px);
-<<<<<<< HEAD
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
     var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
     var(--tw-sepia) var(--tw-drop-shadow);
-=======
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 /*
@@ -934,28 +836,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 input[type="range"] {
   -webkit-appearance: none;
   height: 8px;
-<<<<<<< HEAD
   background: #f1f5f9;
   border-radius: 5px;
   background-image: linear-gradient(#38bdf8, #38bdf8);
-=======
-  background: #F1F5F9;
-  border-radius: 5px;
-  background-image: linear-gradient(#38BDF8, #38BDF8);
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   background-size: 0% 100%;
   background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
 html.dark input[type="range"] {
   background: #0f172a;
   background-image: linear-gradient(#38bdf8, #38bdf8);
-=======
-html.dark input[type="range"]{
-  background: #0F172A;
-  background-image: linear-gradient(#38BDF8, #38BDF8);
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
   background-size: 0% 100%;
   box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.06);
   background-repeat: no-repeat;
@@ -968,29 +858,17 @@ input[type="range"]::-webkit-slider-thumb {
   height: 24px;
   width: 24px;
   border-radius: 50%;
-<<<<<<< HEAD
   background: #ffffff;
   cursor: ew-resize;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
   -webkit-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-=======
-  background: #FFFFFF;
-  cursor: ew-resize;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
-  -webkit-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 html.dark input[type="range"]::-webkit-slider-thumb,
 html.dark input[type="range"]::-moz-range-thumb,
 html.dark input[type="range"]::-ms-thumb {
-<<<<<<< HEAD
   background: #e2e8f0;
-=======
-  background: #E2E8F0;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 input[type="range"]::-webkit-slider-runnable-track,
@@ -1004,7 +882,6 @@ input[type="range"]::-ms-track {
   background: transparent;
 }
 
-<<<<<<< HEAD
 div#song-saved.saved svg path {
   fill: #38bdf8;
   stroke: #38bdf8;
@@ -1032,35 +909,6 @@ div.amplitude-shuffle.amplitude-shuffle-on svg path {
 
 div.amplitude-repeat-song.amplitude-repeat-song-on svg path {
   fill: #38bdf8;
-=======
-div#song-saved.saved svg path{
-  fill: #38BDF8;
-  stroke: #38BDF8;
-}
-
-div.amplitude-play-pause.amplitude-playing #pause-icon{
-  display: block;
-}
-
-div.amplitude-play-pause.amplitude-paused #pause-icon{
-  display: none;
-}
-
-div.amplitude-play-pause.amplitude-paused #play-icon{
-  display: block;
-}
-
-div.amplitude-play-pause.amplitude-playing #play-icon{
-  display: none;
-}
-
-div.amplitude-shuffle.amplitude-shuffle-on svg path{
-  fill: #38BDF8;
-}
-
-div.amplitude-repeat-song.amplitude-repeat-song-on svg path{
-  fill: #38BDF8;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 .hover\:bg-sky-400\/20:hover {
@@ -1080,11 +928,7 @@ div.amplitude-repeat-song.amplitude-repeat-song-on svg path{
 }
 
 .dark .dark\:border-cover-dark-border {
-<<<<<<< HEAD
   border-color: rgba(255, 255, 255, 0.1);
-=======
-  border-color: rgba(255, 255, 255, 0.1);;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 .dark .dark\:border-gray-900 {
@@ -1106,11 +950,7 @@ div.amplitude-repeat-song.amplitude-repeat-song-on svg path{
 }
 
 .dark .dark\:bg-control-panel-dark-background {
-<<<<<<< HEAD
   background-color: rgba(23, 31, 50, 0.5);
-=======
-  background-color: rgba(23, 31, 50, 0.5);;
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 .dark .dark\:bg-play-pause-dark-background {
@@ -1147,21 +987,14 @@ div.amplitude-repeat-song.amplitude-repeat-song-on svg path{
 }
 
 .dark .dark\:shadow-player-dark {
-<<<<<<< HEAD
   --tw-shadow: inset 0px 2px 4px rgba(255, 255, 255, 0.06);
   --tw-shadow-colored: inset 0px 2px 4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-=======
-  --tw-shadow: inset 0px 2px 4px rgba(255, 255, 255, 0.06);;
-  --tw-shadow-colored: inset 0px 2px 4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 .dark .dark\:backdrop-blur-xl {
   --tw-backdrop-blur: blur(24px);
-<<<<<<< HEAD
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
     var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale)
     var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
@@ -1172,10 +1005,6 @@ div.amplitude-repeat-song.amplitude-repeat-song-on svg path{
     var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
     var(--tw-backdrop-opacity) var(--tw-backdrop-saturate)
     var(--tw-backdrop-sepia);
-=======
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
 }
 
 @media (min-width: 1280px) {
@@ -1183,8 +1012,3 @@ div.amplitude-repeat-song.amplitude-repeat-song-on svg path{
     display: flex;
   }
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 259efebc48cf5b4c90fe8cb81713454f611bd928
