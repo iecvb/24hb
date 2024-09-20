@@ -561,7 +561,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .h-screen {
-  /*height: 100vh;*/
+  height: 100vh;
 }
 
 .h-24 {
