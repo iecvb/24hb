@@ -39,8 +39,8 @@ fetch("https://rss-three-pied.vercel.app/api/rss2json")
         artist: "Radio 24hB <br> 24 horas de Estudos Bíblicos",
         album:
           "Igreja Evangelica Congregacional Vale da Benção em Candeias, Jaboatão, Pernambuco, Brasil",
-        url: episodio.enclosure.link,
-        cover_art_url: episodio.thumbnail,
+        url: episodio.url,
+        cover_art_url: episodio.cover_art_url,
       });
     });
 
