@@ -40,7 +40,7 @@ fetch("https://rss-three-pied.vercel.app/api/rss2json")
         album:
           "Igreja Evangelica Congregacional Vale da Benção em Candeias, Jaboatão, Pernambuco, Brasil",
         url: episodio.url,
-        cover_art_url: episodio.cover_art_url,
+        cover_art_url: "iecvb.jpg",
       });
     });
 
