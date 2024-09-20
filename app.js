@@ -35,7 +35,7 @@ fetch("https://rss-three-pied.vercel.app/api/rss2json")
 
     data.forEach((episodio) => {
       episodios.push({
-        name: episodio.title,
+        name: episodio.name,
         artist: "Radio 24hB <br> 24 horas de Estudos Bíblicos",
         album:
           "Igreja Evangelica Congregacional Vale da Benção em Candeias, Jaboatão, Pernambuco, Brasil",
