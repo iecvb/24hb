@@ -27,10 +27,8 @@ document
 document.getElementById("song-saved").addEventListener("click", function () {
   document.getElementById("song-saved").classList.toggle("saved");
 });
-
-fetch(
-  "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fanchor.fm%2Fs%2F49f0c604%2Fpodcast%2Frss&api_key=h2getljthkrm9zimjvzaxhhc0rxcvwbc0h9cylvb&order_by=pubDate&order_dir=desc&count=1000"
-)
+console.time("Tempo de Execução");
+fetch("https://rss-three-pied.vercel.app/api/rss2json")
   .then((response) => response.json())
   .then((data) => {
     const episodios = [];
@@ -68,7 +66,7 @@ fetch(
     });
   })
   .catch((error) => console.error("Erro ao carregar o feed RSS:", error));
-
+console.timeEnd("Tempo de Execução");
 window.onkeydown = function (e) {
   return !(e.keyCode == 32);
 };
