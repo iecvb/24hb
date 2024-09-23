@@ -27,7 +27,7 @@ document
 document.getElementById("song-saved").addEventListener("click", function () {
   document.getElementById("song-saved").classList.toggle("saved");
 });
-console.time("Tempo de Execução");
+//console.time("Tempo de Execução");
 fetch("https://rss-three-pied.vercel.app/api/rss2json")
   .then((response) => response.json())
   .then((data) => {
@@ -63,10 +63,14 @@ fetch("https://rss-three-pied.vercel.app/api/rss2json")
         },
       },
       songs: episodios,
+      start_song: 0,
+      autoplay: true,
     });
+
+    Amplitude.setShuffle(true);
   })
   .catch((error) => console.error("Erro ao carregar o feed RSS:", error));
-console.timeEnd("Tempo de Execução");
+//console.timeEnd("Tempo de Execução");
 window.onkeydown = function (e) {
   return !(e.keyCode == 32);
 };
