@@ -38,7 +38,7 @@ fetch("https://rss-three-pied.vercel.app/api/rss2json")
         name: episodio.name,
         artist: "Radio 24hB <br> 24 horas de Estudos Bíblicos",
         album:
-          "Igreja Evangelica Congregacional Vale da Benção em Candeias, Jaboatão, Pernambuco, Brasil",
+          "Igreja Evangelica Congregacional Vale da Benção em Candeias <br> Rua Professor Sílvio Rabelo, 512, Candeias, Jaboatão, Pernambuco, Brasil",
         url: episodio.url,
         cover_art_url: "iecvb.jpg",
       });
